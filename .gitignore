@@ -1,4 +1,28 @@
+# Environment
 .env
+*.env
+
+# App config (contains tokens and user data)
 config.json
+
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# OS
 .DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
